@@ -76,16 +76,18 @@ span {
 
 .widget_form {
   display: flex; 
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap; 
   width: 100%;
 }
 
 .widget_input {
-  width: 100%;
+  align-self: stretch;
+  /* width: 100%; */
   /* height: 2rem; */
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem;
   /* margin-top: 1rem; */
   margin-bottom: 1rem;
   resize: none;
@@ -97,7 +99,13 @@ span {
 
 .widget_footer {
   margin-bottom: 1rem;
+  color: red;
+  font-size: 0.625rem;
 }
+
+/* .widget_footer_string {
+  color: red;
+} */
 
 .widget_button {
   padding: 0.5rem 1rem;
@@ -153,7 +161,7 @@ button:focus {
 
 .clients_list_card_icon {
   background-color: darkgray;
-  width: 3rem;
+  min-width: 3rem;
   height: 3rem;
   border: 1px solid black;
   border-radius: 50%;
@@ -161,7 +169,7 @@ button:focus {
 
 .clients_list_card_nickname {  
   /* background-color: orchid; */
-  padding: 1rem;
+  padding: 1rem; 
 }
 
 .current_user_card {
@@ -185,14 +193,15 @@ button:focus {
   /* height: 100%; */
   height: 75vh;
   overflow-y: scroll;
-  font-size: 1rem;
+  font-size: 0.625rem;
   display: flex;
   flex-direction: column;  
 }
 
 .chat_messages p {
-  margin-top: 1rem;
-  font-size: 2rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
   overflow: auto;
 }
 

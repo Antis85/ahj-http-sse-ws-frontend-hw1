@@ -2,6 +2,6 @@
 
 # ahj-http-sse-ws-frontend-hw1
 
-## [Frontend:](https://antis85.github.io/ahj-http-sse-ws-frontend-hw1/)
+## [Frontend](https://antis85.github.io/ahj-http-sse-ws-frontend-hw1/)
 
-## [Backend:](https://ahj-hw-sse-ws.herokuapp.com/)
+## [Backend](https://ahj-hw-sse-ws.herokuapp.com/)
