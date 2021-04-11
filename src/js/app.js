@@ -1,6 +1,6 @@
 class WsChatApp {
   constructor() {
-    this.url = 'ws://ahj-hw-ws.herokuapp.com/ws';
+    this.url = 'wss://ahj-hw-ws.herokuapp.com/ws';
     // this.url = 'ws://localhost:7070/ws';
     this.container = document.querySelector('.main_container');
     this.currentUser = undefined;
